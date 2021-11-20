@@ -802,7 +802,7 @@ function SolarisLib:New(Config)
                 end
             end)
             local ItemHold = {}
-            function ItemHold:Button(text,callback)
+            function ItemHold:CreateButton(text,callback)
                 local Holding = false
                 local Button = game:GetObjects("rbxassetid://6937142338")[1]
                 Button.Parent = Section
